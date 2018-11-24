@@ -1,0 +1,50 @@
+﻿@model SinhVien.ViewModels.CreateSinhVienViewModels
+
+@{
+    ViewData["Title"] = "create";
+}
+
+<h2>create</h2>
+
+<h4>SinhVien</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.sinhVien.MaSV, htmlAttributes: new { @class = "control-label" })
+                @Html.EditorFor(m => m.sinhVien.MaSV, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                @Html.ValidationMessageFor(m => m.sinhVien.MaSV, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.sinhVien.TenSV, htmlAttributes: new { @class = "control-label" })
+                @Html.EditorFor(m => m.sinhVien.TenSV, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => m.sinhVien.TenSV, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.sinhVien.NgaySinh, htmlAttributes: new { @class = "control-label" })
+                @Html.EditorFor(m => m.sinhVien.NgaySinh, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => m.sinhVien.NgaySinh, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.sinhVien.MaKhoa, htmlAttributes: new { @class = "control-label" })
+                @Html.DropDownListFor(m => m.sinhVien.MaKhoa, new SelectList(Model.khoa, "MaKhoa", "TenKhoa"), "chọn khoa", new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.sinhVien.MaMon, htmlAttributes: new { @class = "control-label" })
+                @Html.DropDownListFor(m => m.sinhVien.MaMon, new SelectList(Model.monHoc, "MaMon", "TenMmon"), "chọn môn", new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <input type="submit" value="Edit" class="btn btn-default" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

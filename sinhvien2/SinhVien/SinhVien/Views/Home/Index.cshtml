@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div>
+    @Html.ActionLink("Quản lý sinh viên", "Index", "SinhVien", new { @class="btn btn-default"})
+    @Html.ActionLink("Quản lý môn học ", "Index", "MonHoc", new { @class = "btn btn-default" })
+    @Html.ActionLink("Quản lý khoa", "Index", "Khoa", new { @class = "btn btn-default" })
+</div>

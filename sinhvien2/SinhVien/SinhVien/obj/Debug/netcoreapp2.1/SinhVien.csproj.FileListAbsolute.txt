@@ -39,3 +39,6 @@ C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Vi
 C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Views\MonHoc\Index.g.cshtml.cs
 C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Views\MonHoc\Create.g.cshtml.cs
 C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Views\MonHoc\edit.g.cshtml.cs
+C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Views\KetQua\index.g.cshtml.cs
+C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Views\KetQua\read.g.cshtml.cs
+C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Views\KetQua\create.g.cshtml.cs

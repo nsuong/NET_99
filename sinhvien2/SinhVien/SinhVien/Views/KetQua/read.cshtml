@@ -1,0 +1,46 @@
+﻿@model SinhVien.ViewModels.AddDiem
+
+@{
+    ViewData["Title"] = "read";
+}
+
+<h2>chi tiết điểm</h2>
+
+
+<p>danh sách điểm của @Model.tenSv</p>
+@Html.ActionLink("Thêm điểm mới", "create", "KetQua",new { id=Model.maSV})
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Môn học
+            </th>
+            <th>
+                Điểm
+            </th>
+            <th>
+                Mã môn
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ketQua)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaMon)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaMon)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Diem)
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "Delete", new { id=item.MaKQ })
+                </td>
+            </tr>
+            }
+    </tbody>
+</table>

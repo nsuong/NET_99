@@ -63,7 +63,7 @@ using SinhVien.Models;
             WriteLiteral("\r\n<h2>Index</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(103, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f52ce2c383bf4b39918d4f93e0b7c079", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "68e081455cd94e2799c004f2814c6e4b", async() => {
                 BeginContext(126, 10, true);
                 WriteLiteral("Create New");
                 EndContext();

@@ -17,7 +17,7 @@ namespace SinhVien.Models
         [ForeignKey("MaMon")]
         public MonHoc MonHoc { get; set; }
 
-        [Display(Name = "Diem")]
+        [Display(Name = "Điểm")]
         public float Diem { get; set; }
 
         [Display(Name ="Sinh viên")]

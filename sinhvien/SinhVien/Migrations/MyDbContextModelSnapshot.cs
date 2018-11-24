@@ -66,7 +66,7 @@ namespace SinhVien.Migrations
                     b.ToTable("MonHocs");
                 });
 
-            modelBuilder.Entity("SinhVien.Models.SinhVien", b =>
+            modelBuilder.Entity("SinhVien.Models.SinhVient", b =>
                 {
                     b.Property<string>("MaSV")
                         .ValueGeneratedOnAdd();
@@ -97,12 +97,12 @@ namespace SinhVien.Migrations
                         .WithMany()
                         .HasForeignKey("MaMon");
 
-                    b.HasOne("SinhVien.Models.SinhVien", "SinhVien")
+                    b.HasOne("SinhVien.Models.SinhVient", "SinhVien")
                         .WithMany()
                         .HasForeignKey("MaSV");
                 });
 
-            modelBuilder.Entity("SinhVien.Models.SinhVien", b =>
+            modelBuilder.Entity("SinhVien.Models.SinhVient", b =>
                 {
                     b.HasOne("SinhVien.Models.Khoa", "Khoa")
                         .WithMany()

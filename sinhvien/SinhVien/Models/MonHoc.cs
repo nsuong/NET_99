@@ -17,5 +17,6 @@ namespace SinhVien.Models
 
         [Display(Name ="Số tín chỉ")]
         public int SoTinChi { get; set; }
+
     }
 }

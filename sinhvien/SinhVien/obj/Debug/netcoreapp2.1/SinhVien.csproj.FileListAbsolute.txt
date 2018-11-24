@@ -30,3 +30,9 @@ C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\SinhVien
 C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\SinhVien.dll
 C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\SinhVien.pdb
 C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\SinhVien.csproj.CopyComplete
+C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Views\Khoa\Create.g.cshtml.cs
+C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Views\Khoa\Index.g.cshtml.cs
+C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Views\Khoa\edit.g.cshtml.cs
+C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Views\SinhVien\Index.g.cshtml.cs
+C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Views\SinhVien\create.g.cshtml.cs
+C:\Users\Welcome\source\repos\SinhVien\SinhVien\obj\Debug\netcoreapp2.1\Razor\Views\SinhVien\edit.g.cshtml.cs

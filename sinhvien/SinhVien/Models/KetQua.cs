@@ -23,6 +23,6 @@ namespace SinhVien.Models
         [Display(Name ="Sinh viên")]
         public string MaSV { get; set; }
         [ForeignKey("MaSV")]
-        public SinhVien SinhVien { get; set; }
+        public SinhVient SinhVien { get; set; }
     }
 }

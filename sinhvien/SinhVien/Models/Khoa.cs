@@ -14,5 +14,6 @@ namespace SinhVien.Models
         [Required]
         [Display(Name ="Tên Khoa")]
         public string TenKhoa { get; set; }
+
     }
 }

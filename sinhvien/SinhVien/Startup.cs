@@ -28,7 +28,8 @@ namespace SinhVien
         {
             services.AddMvc();
             var ChuoiKetNoi =Configuration.GetConnectionString("EStoreCodeFirst");
-            services.AddDbContext<MyDbContext>(options =>options.UseSqlServer(ChuoiKetNoi));
+            services.AddDbContext<MyDbContext>(options =>options.UseSqlServer(ChuoiKetNoi));
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
